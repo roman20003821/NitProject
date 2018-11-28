@@ -1,0 +1,45 @@
+body, html {
+  height: 100%; }
+
+.navbar {
+  width: 100%; }
+
+.bin_item {
+  margin: 0;
+  border: 1px solid silver;
+  margin-bottom: 50px;
+  padding: 20px;
+  padding-right: 0;
+  padding-left: 0; }
+  .bin_item img {
+    width: 50%;
+    height: auto; }
+
+.wrong_price {
+  text-decoration: line-through;
+  color: silver; }
+
+.new_price {
+  color: red; }
+
+.no_margin {
+  margin: 0; }
+
+#count_form_container {
+  width: 15%; }
+
+.buttons_container {
+  margin-top: 15px; }
+  .buttons_container span {
+    padding: 10px; }
+
+.bin_empty {
+  text-align: center;
+  margin-top: 50px;
+  width: 30%;
+  margin: auto; }
+
+#create_form {
+  margin-top: 50px; }
+
+/*# sourceMappingURL=bin.css.map */

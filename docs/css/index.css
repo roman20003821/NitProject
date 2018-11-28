@@ -1,0 +1,13 @@
+.thumbnail {
+  margin-bottom: 50px; }
+  .thumbnail img {
+    width: 100%;
+    height: 100%; }
+
+.wrong_price {
+  text-decoration: line-through;
+  color: silver; }
+
+.new_price {
+  color: red; }
+
