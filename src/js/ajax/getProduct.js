@@ -6,7 +6,7 @@ import BinItem from "../components/presentational/BinItem"
 
 function loadProduct(productId, elementId) {
     $.ajax({
-        url: 'http://nit.tron.net.ua/api/product/' + productId,
+        url: 'https://nit.tron.net.ua/api/product/' + productId,
         type: 'GET',
         dataType: 'json',
         success: function (result) {

@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 function loadProducts(categoryId) {
     $.ajax({
-        url: 'http://nit.tron.net.ua/api/product/list/category/' + categoryId,
+        url: 'https://nit.tron.net.ua/api/product/list/category/' + categoryId,
         type: 'GET',
         dataType: 'json',
         success: function (result) {

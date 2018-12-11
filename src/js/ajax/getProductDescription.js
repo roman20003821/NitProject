@@ -7,7 +7,7 @@ import DescriptionItem from "../components/presentational/DescriptionItem";
 
 function loadProductToDesc(productId, elementId) {
     $.ajax({
-        url: 'http://nit.tron.net.ua/api/product/' + productId,
+        url: 'https://nit.tron.net.ua/api/product/' + productId,
         type: 'GET',
         dataType: 'json',
         success: function (result) {

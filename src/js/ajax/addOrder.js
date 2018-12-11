@@ -4,9 +4,10 @@ import {start} from "../bin";
 
 function addOrderToShop(data) {
     $.ajax({
-        url: 'http://nit.tron.net.ua/api/order/add',
+        url: 'https://nit.tron.net.ua/api/order/add',
         type: 'POST',
         dataType: 'json',
+        data: data,
         success: function (result) {
             alert("Success");
             localStorage.clear();
